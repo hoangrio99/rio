@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+section{
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+	background: #FFefcf;
+	padding: 100px;
+}
+
+header{
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 20px 100px;
+	display: flex;
+	justify-content:space-between;
+	align-items: center;
+}
+
+.logo{
+	width: 250px;
+	position: relative;
+}
+
+
+ul{
+	display: flex;
+	position: relative;
+}
+
+li {
+	list-style: none;
+	display: block;
+}
+
+.menu il a:hover{
+	background: #FF0004;
+	color: white;
+	width: 40px 60px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+
+	
+
+a{
+	display: inline-block;
+	color: #864000;
+	margin-left: 30px;
+	text-decoration: none;
+	font-weight: 200;
+	font-size: 15pt;
+	
+}
+
+li :hover{
+	background: #FF0004;
+	color: white;
+	width: 40px 60px;
+	border-radius: 50%;
+	transition: 0.5s;
+}
+
+.box{
+	top: 20px;
+	position: absolute;
+	width: 100%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	
+}
+
+/*
+.video{
+	width: 100%;
+	position:relative;
+	display: flex;
+	justify-content: space-around;
+}
+*/
+/*
+
+.news mot{
+	width: 100%;
+	position:relative;
+	display: flex;
+	justify-content:space-around;
+	align-items: center;
+	
+}
+*/
+
+
+.content{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.content .textbox{
+	position: relative;
+	max-width: 60%;
+}
+
+.content .textbox h2 span{
+	color: #FF0004;
+	font-size: 50pt;
+	font-weight:900;
+}
+
+.content .textbox h2{
+	font-size: 50pt;
+	color: #FF7200;
+	line-height: 1.5em;
+	font-weight: 300;
+}
+
+.content .textbox a{
+	display: inline-block;
+	margin: 20px;
+	padding: 8px 20px;
+	background: #B70104;
+	border-radius: 40px;
+	font-weight: 200;
+	letter-spacing: 1px;
+	text-decoration: none;
+	color: white;
+}
+
+.content .textbox a:hover{
+	background: #FF0004;
+	transition: 0.5s;
+}
+
+.content .imgbox{
+	width: 40%;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+.content .imgbox .art{
+	width:400px;
+}
+
+.content .imgbox .artmot{
+	width:600px;
+}
+.thumb{
+	position: absolute;
+	display: flex;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.thumb li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 30px;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.thumb li:hover{
+	transform: translateY(-15px)
+}
+
+.thumb li img{
+	width: 60px;
+}
+
+.sci{
+	position: absolute;
+	top: 50%;
+	right: 30px;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.sci li{
+	list-style: none;
+}
+
+.sci li a{
+	display: inline-block;
+	margin: 5px 0;
+	transform: scale(0.6px);
+}
+
+.sci li a img{
+	width: 40px;
+}
+
+.circle img{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.textbox h2 .nameart{
+	font-size: 30pt;
+	text-decoration: underline;
+	color: #A70002;
+	font-weight: 300;
+}
+
+.textbox h2 span {
+	font-size: 10pt;
+	text-decoration: none;
+	color: #EC0003;
+}
+
+.row{
+	margin-top: 5%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.vinci{
+	flex-basis: 31%;
+	background: #FFEDB1;
+	border-radius: 10%;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	justify-content: center;
+	text-align: center;
+	margin: 10px;
+}
+.imgartmot{
+	width: 450px;
+	margin:30px 30px;
+	border-radius: 10%;
+}
+h1 {
+	text-align: center;
+	font-weight: 500;
+	margin: 10px 0px;
+	font-size: 60pt;
+}
+
+p{
+	padding: 10px 10px;
+}
+
+h2{
+	font-size: 40pt;
+	color: #973012;
+}
+
+.vinci :hover{
+	box-shadow: 0 0 20px 0px rgba(0,0,2,0);
+}
+
+.aboutus{
+	flex-basis: 31%;
+	background: #FFEDB1;
+	border-radius: 10%;
+	margin-bottom: 5%;
+	padding: 20px 12px;
+	box-sizing: border-box;
+	transition: 0.5s;
+	justify-content: center;
+	text-align: center;
+}
+
+.cover{
+	border-radius: 10%;
+	width: cover;
+	transition: 0.5s;
+}
+
+.cover:hover{
+	background: #D38823;
+	opacity: 20%;
+	
+}
+
+.footer{ 
+	width: 100%;
+	text-align: center;
+	padding: 30px 0;
+}
+
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+
+
+	

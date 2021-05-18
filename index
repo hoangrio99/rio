@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ORIGINAL SOUL</title>
+<link rel="stylesheet" href="originalsoul.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	
+	</head>
+	
+<body>
+	
+	<section class="wraper">
+	<header>
+		<a href="originalsoul.html" ><img src="logo web.png" class="logo"></a>
+		
+	<div class="menu">
+		<ul>
+		<il><a href="originalsoul.html">Home</a></il>
+		<il><a href="originalsoul_artwork.html">Artwork</a></il>
+		<il><a href="originalsoul_aboutus.html">About us</a></il>
+		<il><a href="originalsoul_contactus.html">Contact us</a></il>
+		</ul>
+		</div>
+	</header>
+	<div class="content">
+	<div class="textbox">
+	<h2>ART USED TO BE <br><span>AN OLYMPIC EVENT </span></h2>
+	<p>The Olympics wasn’t always about abs and doping scandals. The founder of the modern Games, the Baron Pierre de Coubertin, was enamoured with the idea of the true Olympian being a talented artist and sportsperson. Thanks to him, between 1912 and 1948 medals were given out for sporting-inspired masterpieces of architecture, music, painting, sculpture and literature.</p>
+	<a href="https://bluethumb.com.au/blog/news-and-media/5-facts-about-art-that-will-impress-your-friends/">Read more</a>
+	</div>	
+		<div class="imgbox">
+		<img src="Olympics-Art-Study-of-sport-520.jpg__600x0_q85_upscale.png" class="art">
+		</div>	
+	</div>
+	
+	<ul class="thumb">
+	<li><img src="icon2.png "onclick="Imgslider('Olympics-Art-Study-of-sport-520.jpg__600x0_q85_upscale.png')"></li>	
+	<li><img src="Layer 2.png "onclick="Imgslider('Layer 2.png')"></li>	
+	</ul>
+		
+	<ul class="sci">
+	<li><a href="#"><img src="87390.png"></a></li>
+	<li><a href="#"><img src="43-twitter-512.png"></a></li>
+	<li><a href="#"><img src="—Pngtree—black facebook icon facebook logo_3584912.png"></a></li>
+	</ul>
+	</section>
+	<script type="text/javascript">
+		function Imgslider(anything){document.querySelector('.art').src=anything;}
+		</script>
+	
+		<section><div class="footer">
+		<h4>About us</h4>
+		<p>ORIGINAL SOUL is a Swiss-headquartered pan-European retail chain offering products for home improvement, gardening, and workshop. The name contains the German words bauen (to build) and Haus (house), but also alludes to the modernist Bauhaus school and the company's founder and owner, the German billionaire Heinz-Georg Baus.</p>
+		</div>
+	</section>
+	
+</body>
+</html>
